@@ -117,35 +117,37 @@ html {
 </div>
 </nav>
 <!-- 1. 메인 히어로 섹션 -->
-<header id="hero" class="relative w-full mt-16 md:mt-20 flex items-end overflow-hidden" style="background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%); min-height: 600px; height: 85vh;">
+<header id="hero" class="relative w-full mt-16 md:mt-20 flex items-end overflow-hidden min-h-[600px] h-auto md:h-[85vh]" style="background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);">
     <div class="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-end justify-between h-full pt-10 pb-0">
         
         <!-- 좌측 텍스트 -->
-        <div class="w-full md:w-1/2 text-center md:text-left z-20 pb-0 md:pb-16 flex flex-col justify-end items-center md:items-start h-auto md:h-full mt-6 md:mt-0 pt-10 md:pt-0 shrink-0">
-            <!-- 뱃지 영역 -->
-            <div class="inline-flex items-center gap-3 mb-6">
-                <span class="px-4 py-1.5 bg-[#E60024] text-white font-black text-sm md:text-xl tracking-tight rounded-md leading-none shadow-sm">기호 5번</span>
-                <span class="text-xl md:text-2xl lg:text-3xl font-extrabold text-[#8bb4e6] tracking-tight">노정현과 함께</span>
-            </div>
-            
-            <!-- 메인 타이틀 -->
-            <h1 class="text-[52px] sm:text-6xl md:text-7xl lg:text-[100px] font-black text-[#1e293b] leading-[1.1] tracking-tighter mb-2 break-keep">
-                일하는<br>구의원
-            </h1>
-            <h2 class="text-6xl sm:text-7xl md:text-8xl lg:text-[100px] font-black text-[#8bb4e6] break-keep leading-none tracking-tighter mb-8 drop-shadow-sm">
-                노민현
-            </h2>
-            
-            <!-- 서브 텍스트 -->
-            <div class="inline-block bg-white px-6 py-3 md:px-8 md:py-4 rounded-2xl shadow-sm border border-gray-100/50">
-                <p class="text-2xl md:text-3xl text-gray-800 font-bold tracking-tight m-0">거제동 구의원 후보</p>
+        <div class="w-full md:w-1/2 z-20 pb-0 md:pb-16 flex flex-col justify-end items-center md:items-start h-auto md:h-full mt-6 md:mt-0 pt-10 md:pt-0 shrink-0">
+            <div class="flex flex-col items-start text-left">
+                <!-- 뱃지 영역 -->
+                <div class="inline-flex items-center gap-3 mb-6">
+                    <span class="px-4 py-1.5 bg-[#E60024] text-white font-black text-sm md:text-xl tracking-tight rounded-md leading-none shadow-sm">기호 5번</span>
+                    <span class="text-xl md:text-2xl lg:text-3xl font-extrabold text-[#8bb4e6] tracking-tight">노정현과 함께</span>
+                </div>
+                
+                <!-- 메인 타이틀 -->
+                <h1 class="text-[52px] sm:text-6xl md:text-7xl lg:text-[100px] font-black text-[#1e293b] leading-[1.1] tracking-tighter mb-2 break-keep">
+                    일하는<br>구의원
+                </h1>
+                <h2 class="text-6xl sm:text-7xl md:text-8xl lg:text-[100px] font-black text-[#8bb4e6] break-keep leading-none tracking-tighter mb-8 drop-shadow-sm">
+                    노민현
+                </h2>
+                
+                <!-- 서브 텍스트 -->
+                <div class="inline-block bg-white px-6 py-3 md:px-8 md:py-4 rounded-2xl shadow-sm border border-gray-100/50">
+                    <p class="text-2xl md:text-3xl text-gray-800 font-bold tracking-tight m-0">거제동 구의원 후보</p>
+                </div>
             </div>
         </div>
 
         <!-- 우측 후보자 사진 영역 -->
         <div class="w-full md:w-1/2 flex justify-center md:justify-end items-end h-[50%] md:h-[600px] relative z-10 mt-8 md:mt-0">
             <!-- 모바일과 PC 사이즈 분기. 모바일에서는 조금 작게, PC는 훨씬 크게 -->
-            <div class="relative w-[320px] h-[360px] md:w-[600px] md:h-[600px] flex items-end justify-center shrink-0 translate-x-4 md:translate-x-12">
+            <div class="relative w-[320px] h-[360px] md:w-[600px] md:h-[600px] flex items-end justify-center shrink-0 translate-x-0 md:translate-x-12">
                 <!-- 아치형 배경 -->
                 <div class="absolute bottom-0 w-[85%] md:w-[80%] h-[75%] md:h-[80%] bg-[#dbeafe] rounded-t-full z-0 mx-auto"></div>
                 <!-- 후보자 이미지 -->
